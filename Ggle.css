@@ -1,0 +1,72 @@
+
+/*.aaa {border : 2px solid red;}*/
+
+.bbb {/*border : 2px solid blue;*/
+	  height : 460px;
+	}
+
+.ccc {border : .025px solid grey;
+	  display: flex;
+	  flex-wrap: wrap
+	}
+						          /*-----------HEADER-----------*/
+header{
+	 display: flex;
+	 justify-content: flex-end;	 
+}
+
+.header {text-decoration: none;}
+
+header span {padding-right: 1em;}
+
+
+
+	  		                      /*-----------MAIN-----------*/
+
+span.IMAGE {
+	display: flex;
+	justify-content : center;
+}
+.maRecherche {border-radius: 10px;
+				width : 25em;}
+
+.fff{
+	display : flex;
+	justify-content : center;
+}
+
+.toolbar{
+	display : flex;
+	justify-content : center;
+}
+
+
+	  		                      /*-----------FOOTER-----------*/
+footer{display: flex;
+     flex-direction: column;
+     background: rgb(200,200,200);
+     text-decoration: none;
+}	
+.XXX{display: flex;                                     /*France*/
+	justify-content: flex-start;
+	border : 2px solid grey;
+}
+.foot{ display: flex;                                  /*Pubs google*/
+	flex-direction: row ;
+	justify-content: space-between;
+	margin-left: 0;
+	border : .025px solid grey;
+	text-decoration: none;
+}
+
+ul{ display: flex;
+	list-style-type: none; /*enlevage des puces*/
+	flex-direction: row;
+    text-decoration: none; /*enlevage des surlignages*/
+}
+
+.liens{	text-decoration: none;
+	margin : 0 9px;
+}
+
+
